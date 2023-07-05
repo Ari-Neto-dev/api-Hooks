@@ -19,6 +19,7 @@ function App() {
   function handleAdd(){
   
     setTarefas([...tarefas, input])
+    setInput('');
   }
 
 
